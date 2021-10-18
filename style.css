@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.main {
+  height: 100vh;
+  width: 55vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  height: 400px;
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  height: 400px;
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.mid {
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  height: 400px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  border-radius: 6px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.le {
+  color: hsl(31, 77%, 52%);
+}
+.mi {
+  color: hsl(184, 100%, 22%);
+}
+.ri {
+  color: hsl(179, 100%, 13%);
+}
+.para {
+  width: 70%;
+  line-height: 30px;
+}
+
+.header {
+  text-transform: uppercase;
+}
